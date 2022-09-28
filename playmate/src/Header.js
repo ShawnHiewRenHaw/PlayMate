@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
-import PersonIcon from '@mui/icons-material/Person';
 import ForumIcon from '@mui/icons-material/Forum';
+import PetsIcon from '@mui/icons-material/Pets';
 import ezyLogo from './ezyLogo.PNG'
 import { IconButton } from '@mui/material';
 
@@ -10,7 +10,7 @@ function Header(){
         //BEM
     <div className ="header">
         <IconButton> 
-        <PersonIcon className="header__icon" fontSize="large"/>
+        <PetsIcon className="header__icon" fontSize="large"/>
 
         </IconButton>
        
