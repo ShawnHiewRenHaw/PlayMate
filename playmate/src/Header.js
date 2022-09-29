@@ -11,12 +11,12 @@ function Header(){
     return (
         //BEM
     <div className ="header">
-         <Link to="/chat">
+         
         <IconButton> 
         <PetsIcon className="header__icon" fontSize="large"/>
 
         </IconButton>
-        </Link>
+        
        
        
         <img 
