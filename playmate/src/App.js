@@ -3,6 +3,11 @@ import './App.css';
 import Header from './Header';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import PetCards from "./PetCards";
+import Signup from "./SignUp";
+import { Dropdown } from 'semantic-ui-react';
+import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
 
 
 function App() {
@@ -14,6 +19,9 @@ function App() {
       <Switch>
       <Route path="/chat">
           <h1>I am chatpage</h1>
+        </Route>
+        <Route path="/signup">
+          <Signup />
         </Route>
         <Route path="/petSit">
           <h1>I am Pet Sit page</h1>

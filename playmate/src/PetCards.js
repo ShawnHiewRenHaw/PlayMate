@@ -17,6 +17,9 @@ function PetCards() {
     return (
         <div>
             <h1>Pet Cards</h1>
+
+            <div className ="petCard_Container">
+
             {pet.map((pet) => (
                 <TinderCard
                     className="swipe"
@@ -31,6 +34,7 @@ function PetCards() {
                     </div>
                 </TinderCard>
             ))}
+            </div>
         </div>
     );
 }
