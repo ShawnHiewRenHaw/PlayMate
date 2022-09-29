@@ -6,7 +6,7 @@ function PetCards() {
     const [pet, setPet] = useState([
         {
             name: 'Bub',
-            url: 'https://upload.wikimedia.org/wikipedia/commons/2/2a/Bully-dog-2314909-1920.jpg'
+            url: 'https://www.yourpurebredpuppy.com/dogbreeds/photos2-G/german-shepherd-05.jpg'
         },
         {
             name: 'Spots',
