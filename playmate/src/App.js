@@ -2,6 +2,7 @@ import React from "react";
 import './App.css';
 import Header from './Header';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import PetCards from "./PetCards";
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
           <h1>I am Vet booking page</h1>
         </Route>
         <Route path="/">
-          <h1>I am homepage</h1>
+        <PetCards />
         </Route>
       </Switch>
     </Router>
