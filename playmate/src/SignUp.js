@@ -1,13 +1,12 @@
 import React from 'react'
 import './SignUp.css';
 import { useFormik } from 'formik'
+import { Link, Route } from 'react-router-dom';
 
-
-
-  
-    
 
 function Signup () {
+   
+
     const validate = values => {
         const errors = {}
     
@@ -59,7 +58,10 @@ function Signup () {
         onBlur={formik.handleBlur}
         value={formik.values.repassword}/>
       {formik.touched.repassword && formik.errors.repassword ? <div className='error'>{formik.errors.repassword}</div> : null}/
-            <button className= "button_" type="submit">Sign Up</button>
+            <button  className= "button_" type="submit">Sign Up</button>
+            <Link to="/">
+            <button  className= "button_" type="submit">Home</button>
+            </Link>
             </form>
         </div>
     )
