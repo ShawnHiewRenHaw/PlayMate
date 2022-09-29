@@ -17,7 +17,14 @@ function ChatScreen() {
         message: 'Hows it going!' 
  
      }
-   ])
+   ]);
+
+   const handleSend = e => {
+    e.preventDefault();
+
+    setMessages([...messages, { message: input}]);
+    setInput("");
+   }
     
    return (
         <div className="chatScreen">
