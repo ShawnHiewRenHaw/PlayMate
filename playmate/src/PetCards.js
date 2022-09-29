@@ -35,4 +35,4 @@ function PetCards() {
     );
 }
 
-export default TinderCards;
+export default PetCards;
