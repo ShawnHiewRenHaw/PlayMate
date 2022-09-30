@@ -1,0 +1,17 @@
+.matches{
+    display:flex;
+    height: 77px;
+   
+    
+}
+
+
+.matches_icon{
+    
+    padding-top: 12px;
+  
+   position: relative;
+   left: 70%;
+   object-fit: contain;
+   
+}
