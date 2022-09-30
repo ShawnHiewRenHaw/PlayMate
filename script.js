@@ -1,9 +1,3 @@
-function next() {
-    document.getElementById('login-form').style.display = "none";
-    document.getElementById('register-form').style.display = "block";
-}
-
-function prev() {
-    document.getElementById('register-form').style.display = "none";
-    document.getElementById('login-form').style.display = "block";
-}   
+$('.message a').click(function(){
+    $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+ });
