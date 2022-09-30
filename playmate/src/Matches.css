@@ -1,18 +1,17 @@
 .matches{
     display:flex;
-    height: 60px;
-    border-bottom: 2px solid #9d1f1fbc;
+    height: 77px;
+   
     
 }
-.matchIcon{
-    padding: 20px;
-   height: 20px;
-   float: right;
 
+
+.matches_icon{
+    
+    padding-top: 12px;
+  
+   position: relative;
+   left: 70%;
+   object-fit: contain;
+   
 }
-
-/* display:flex;
-    width: 33.33%;
-    float:right;
-    border-left: 2px solid #838383bc;
-    border-bottom: 2px solid #838383bc;*/
