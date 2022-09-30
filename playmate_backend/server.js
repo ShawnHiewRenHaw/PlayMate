@@ -4,6 +4,8 @@ import mongoose from "mongoose";
 import Profiles from "dbProfiles";
 import Pusher from "pusher";
 
+const { MongoClient } = require('mongodb');
+
 //application confiq
 const app= express()
 const port = process.env.PORT || 9000
@@ -16,9 +18,9 @@ const pusher = new Pusher({
     useTLS: true
 });
 
-//middleware
 
 //db confiq
+
 const connectionUrl = 'mongodb+srv://admin:ezyvet@cluster0.0bqz5dt.mongodb.net/?retryWrites=true&w=majority'
 
 mongoose.connect(connectionUrl, {
