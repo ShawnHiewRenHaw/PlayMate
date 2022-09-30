@@ -1,8 +1,8 @@
 # Playmate
 
-Playmates is your friendly neighbourhood dog meetup app! Match, chat, and meet dogs and their owners near you using geolocation.
+Playmate is your friendly neighbourhood dog meetup app! Match, chat, and meet dogs and their owners near you using geolocation.
 
-Looking for the top rated vets, pet food stores, walkers, or anything else related to your pup? Hop on over to our Playmates Map and check out every animal business in your area!
+Looking for the top rated vets, pet food stores, walkers, or anything else related to your pup? Hop on over to our Playmate Map and check out every animal business in your area!
 
 # Getting Started with Create React App
 
