@@ -3,7 +3,7 @@ const { MongoClient } = require('mongodb');
 
 async function main(){
 
-    const uri = "mongodb+srv://playmate:playmate123@cluster0.zixx18l.mongodb.net/?retryWrites=true&w=majority"
+    const uri = "mongodb+srv://playmate:playmate123@cluster0.zixx18l.mongodb.net/PLAYMATE-BACKEND?retryWrites=true&w=majority"
 
     const client = new MongoClient(uri);
 
