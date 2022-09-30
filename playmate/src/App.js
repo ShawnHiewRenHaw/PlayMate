@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import PetCards from "./PetCards";
 import Signup from "./SignUp";
 import SwipeButtons from './SwipeButtons';
+import Matchess from './Matches';
 import Chats from "./Chat";
 import ChatScreen from "./ChatScreen";
 
@@ -19,7 +20,7 @@ function App() {
       <Switch>
       
       <Route path="/chat">
-          <Chats />
+         
           <ChatScreen />
         </Route>
         <Route path="/signup">
@@ -29,9 +30,11 @@ function App() {
           <h1>I am Pet Sit page</h1>
         </Route>
         <Route path="/Vet">
-          <h1>I am Vet booking page</h1>
+       
         </Route>
         <Route path="/meet">
+        <Matchess />
+        <ChatScreen />
         <PetCards />
         <SwipeButtons />
         </Route>
@@ -48,13 +51,5 @@ function App() {
   );
 }
 
-{/* Header*/}
-/*<Header />*/
-
-{/*tinder cards*/}
-   {/*butons at the bottom*/}
-
-   {/*chat screen */}
-   {/*seperate chat screen*/}
 
 export default App;

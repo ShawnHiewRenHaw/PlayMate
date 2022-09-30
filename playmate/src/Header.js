@@ -19,10 +19,21 @@ function Header(){
     return (
         <div className="header">
 
-                <IconButton>
-                    <PetsIcon className="header__icon" fontSize="large" />
 
+               <Link to="/meet">
+
+                <IconButton>
+                    <PetsIcon className="header__icon_" fontSize="large" />
                 </IconButton>
+
+                </Link>
+
+                <Link to="/vet">
+                <IconButton>
+                    <LocalHospitalIcon className="header__icon_" fontSize="large" />
+                </IconButton>
+                </Link>
+
 
 
 

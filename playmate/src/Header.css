@@ -1,9 +1,10 @@
 .header {
     display:flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #f9f9f9;
+    border-bottom: 2px solid #838383bc;
+    
+    
 }
+
 
 .header__logo{
     height :50px;
@@ -11,6 +12,14 @@
   
 }
 
+.header__icon_{
+    padding: 20px;
+  
+}
+
+
+
 .header__icon{
     padding: 20px;
+
 }
