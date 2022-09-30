@@ -13,12 +13,12 @@ import ChatScreen from "./ChatScreen";
 function App() {
   return (
     <div className="App">
-      <h1>ezyVet Hackerthon 2022 PlayMate😻🐶</h1>
-      <Header />
+      
       <Router>
+      <Header />
       <Switch>
+      
       <Route path="/chat">
-          <h1>I am chatpage</h1>
           <Chats />
           <ChatScreen />
         </Route>
@@ -31,9 +31,12 @@ function App() {
         <Route path="/Vet">
           <h1>I am Vet booking page</h1>
         </Route>
-        <Route path="/">
+        <Route path="/meet">
         <PetCards />
         <SwipeButtons />
+        </Route>
+        <Route path="/">
+          <h1>I am Login page</h1>
         </Route>
       </Switch>
     </Router>

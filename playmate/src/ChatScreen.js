@@ -7,15 +7,15 @@ function ChatScreen() {
     const[input, setInput] = useState('');
    const [messages, setMessages] = useState([
     {
-       name: 'Ellen',
+       name: 'Sam',
        image: '...',
-       message: 'Whats up' 
+       message: 'cute doggo 🐶' 
 
     },
     {
-        name: 'Ellen',
+        name: 'Sam',
         image: '...',
-        message: 'Hows it going!' 
+        message: 'Can we set a play date' 
  
      }
    ]);
@@ -29,7 +29,7 @@ function ChatScreen() {
     
    return (
         <div className="chatScreen">
-            <p className="chatScreen__timeStamp">YOU MATCHED WITH SAMS OWNER ON 18/11/22 🥳</p>
+            <p className="chatScreen__timeStamp">YOU MATCHED WITH SAM ON 18/11/22 🥳</p>
             {messages.map((message) => (
                 message.name ? (
                     <div className="chatScreen__message">
