@@ -23,9 +23,11 @@ function Header(){
          className= "header__logo"
          src={ezyLogo} alt ="EzyVet Logo"/>
 
-         
-         <IconButton>
+
+
+        <IconButton>
          <ForumIcon className="header__icon" fontSize="large"/>
+      
          </IconButton>
          
     </div>

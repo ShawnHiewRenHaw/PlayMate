@@ -1,7 +1,8 @@
 .card {
+  margin-top: -8vh;
     Position: relative;
     width: 600px;
-    padding: 20px;
+    padding: 0.5px;
     max-width: 85vw;
     height: 50vh;
     border-radius: 20px;
