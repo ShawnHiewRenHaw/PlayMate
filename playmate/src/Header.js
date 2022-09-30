@@ -17,7 +17,6 @@ function Header(){
    
 
     return (
-        
         <div className="header">
 
                 <IconButton>
@@ -25,10 +24,6 @@ function Header(){
 
                 </IconButton>
 
-                <IconButton>
-                    <LocalHospitalIcon className="header__icon" fontSize="large" />
-
-                </IconButton>
 
 
                 <img
@@ -40,10 +35,10 @@ function Header(){
 
 
                 <Link to="/chat">
-               
-                <IconButton>
-                    <ForumIcon className="header__icon" fontSize="large" />
-                </IconButton>
+
+                    <IconButton>
+                        <ForumIcon className="header__icon" fontSize="large" />
+                    </IconButton>
                 </Link>
 
 
