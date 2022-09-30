@@ -3,13 +3,11 @@ import './Header.css';
 import ForumIcon from '@mui/icons-material/Forum';
 import PetsIcon from '@mui/icons-material/Pets';
 import ezyLogo from './ezyLogo.PNG'
+import GroupIcon from '@mui/icons-material/Group';
 import { IconButton } from '@mui/material';
-import { Link, useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
-import { Dropdown } from 'semantic-ui-react';
-import Navbar from 'react-bootstrap/Navbar';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
+import LocalHospitalRoundedIcon from '@mui/icons-material/LocalHospitalRounded';
 
 
 function Header(){
@@ -19,36 +17,38 @@ function Header(){
     return (
         <div className="header">
 
+               <img
+                    className="header__logo"
+                    src={ezyLogo} alt="EzyVet Logo" />
+
 
                <Link to="/meet">
 
                 <IconButton>
-                    <PetsIcon className="header__icon_" fontSize="large" />
+                    <PetsIcon style={{ color: 'white' }} className="header__icon_" fontSize="large" />
                 </IconButton>
 
                 </Link>
 
                 <Link to="/vet">
                 <IconButton>
-                    <LocalHospitalIcon className="header__icon_" fontSize="large" />
+                    <LocalHospitalRoundedIcon style={{ color: 'white' }} className="header__icon_" fontSize="large" />
                 </IconButton>
                 </Link>
+               
 
+                <Link to="/petsit">
 
+                    <IconButton>
+                         <GroupIcon style={{ color: 'white' }} className="header__icon_" fontSize="large" />
+                     </IconButton>
 
-
-                <img
-                    className="header__logo"
-                    src={ezyLogo} alt="EzyVet Logo" />
-
-
-
-
+                 </Link>
 
                 <Link to="/chat">
 
                     <IconButton>
-                        <ForumIcon className="header__icon" fontSize="large" />
+                        <ForumIcon style={{ color: 'white' }} className="header__icon" fontSize="large" />
                     </IconButton>
                 </Link>
 

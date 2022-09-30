@@ -1,4 +1,4 @@
-import React , { useEffect, useState }from 'react'
+import React , {  useState }from 'react'
 import PersonIcon from '@mui/icons-material/Person';
 import './ChatScreen.css';
 
@@ -16,6 +16,24 @@ function ChatScreen() {
         name: 'Sam',
         image: '...',
         message: 'Can we set a play date' 
+ 
+     },
+     {
+        name: 'Sam',
+        image: '...',
+        message: 'Would you be interested in investing in my start up' 
+ 
+     },
+     {
+        name: 'Sam',
+        image: '...',
+        message: 'I take sam to the park every sunday' 
+ 
+     },
+     {
+        name: 'Sam',
+        image: '...',
+        message: 'HELLLLLLO?' 
  
      }
    ]);

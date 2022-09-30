@@ -6,7 +6,6 @@ import PetCards from "./PetCards";
 import Signup from "./SignUp";
 import SwipeButtons from './SwipeButtons';
 import Matchess from './Matches';
-import Chats from "./Chat";
 import ChatScreen from "./ChatScreen";
 
 
@@ -20,7 +19,6 @@ function App() {
       <Switch>
       
       <Route path="/chat">
-         
           <ChatScreen />
         </Route>
         <Route path="/signup">
