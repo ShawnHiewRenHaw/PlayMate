@@ -1,24 +1,27 @@
-import React from "react";
-import PetCard from "react-pet-card";
+import React, { useState } from "react";
+import TinderCard from 'react-tinder-card'
 import './PetCards.css';
 
 function PetCards() {
     const [pet, setPet] = useState([
         {
-            name: 'Bub',
-            url: 'https://upload.wikimedia.org/wikipedia/commons/2/2a/Bully-dog-2314909-1920.jpg'
+            name: 'Bub, 2y: 2Km away, love going to parks and playing fetch',
+            url: 'https://www.yourpurebredpuppy.com/dogbreeds/photos2-G/german-shepherd-05.jpg'
         },
         {
-            name: 'Spots',
+            name: 'Spots, 2y: 7km away, I love walks!',
             url: 'https://static.onecms.io/wp-content/uploads/sites/47/2020/06/28/Catahoula-Leopard-Dog-lying-down-627457592-2000.jpg'
         }
     ]);
 
     return (
         <div>
-            <h1>Pet Cards</h1>
+            
+
+            <div className ="petCard_Container">
+
             {pet.map((pet) => (
-                <PetCard
+                <TinderCard
                     className="swipe"
                     key={pet.name}
                     preventSwipe={['up', 'down']}
@@ -29,8 +32,9 @@ function PetCards() {
                     >
                         <h3>{pet.name}</h3>
                     </div>
-                </PetCard>
+                </TinderCard>
             ))}
+            </div>
         </div>
     );
 }

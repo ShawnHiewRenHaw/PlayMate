@@ -1,27 +1,51 @@
 import React from "react";
 import './App.css';
 import Header from './Header';
+import petSit from './petSit';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import PetCards from "./PetCards";
+
+import Signup from "./SignUp";
+import SwipeButtons from './SwipeButtons';
+import Matchess from './Matches';
+import ChatScreen from "./ChatScreen";
+import MainPageee from "./MainPageee";
+
 
 
 function App() {
+  
   return (
     <div className="App">
-      <h1>ezyVet Hackerthon 2022 PlayMate😻🐶</h1>
-      <Header />
+      
+      { /* the router is used to navigate between different pages */ }
+
       <Router>
+
+      { /* header is placed outside of the switch so that no matter what page you are on header will always be shown */ }
+      <Header />
+
+      { /*switch is used to navigate through the different pages. Route paths are shown for each sub page*/ }
       <Switch>
       <Route path="/chat">
-          <h1>I am chatpage</h1>
+          <ChatScreen />
+        </Route>
+        <Route path="/signup">
+          <Signup />
         </Route>
         <Route path="/petSit">
-          <h1>I am Pet Sit page</h1>
+          <petSit />
         </Route>
         <Route path="/Vet">
-          <h1>I am Vet booking page</h1>
+        </Route>
+        <Route path="/meet">
+        <Matchess />
+        <ChatScreen />
+        <PetCards />
+        <SwipeButtons />
         </Route>
         <Route path="/">
-          <h1>I am homepage</h1>
+        <MainPageee />
         </Route>
       </Switch>
     </Router>
@@ -33,13 +57,5 @@ function App() {
   );
 }
 
-{/* Header*/}
-/*<Header />*/
-
-{/*tinder cards*/}
-   {/*butons at the bottom*/}
-
-   {/*chat screen */}
-   {/*seperate chat screen*/}
 
 export default App;
