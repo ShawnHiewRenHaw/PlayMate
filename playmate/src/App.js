@@ -7,7 +7,7 @@ import Signup from "./SignUp";
 import SwipeButtons from './SwipeButtons';
 import Matchess from './Matches';
 import ChatScreen from "./ChatScreen";
-
+import MainPageee from "./MainPageee";
 
 
 function App() {
@@ -17,7 +17,6 @@ function App() {
       <Router>
       <Header />
       <Switch>
-      
       <Route path="/chat">
           <ChatScreen />
         </Route>
@@ -37,7 +36,7 @@ function App() {
         <SwipeButtons />
         </Route>
         <Route path="/">
-          <h1>I am Login page</h1>
+        <MainPageee />
         </Route>
       </Switch>
     </Router>

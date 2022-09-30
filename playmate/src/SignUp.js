@@ -1,7 +1,7 @@
 import React from 'react'
 import './SignUp.css';
 import { useFormik } from 'formik'
-import { Link, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 function Signup () {

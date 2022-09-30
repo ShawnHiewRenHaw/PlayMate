@@ -6,7 +6,6 @@ import ezyLogo from './ezyLogo.PNG'
 import GroupIcon from '@mui/icons-material/Group';
 import { IconButton } from '@mui/material';
 import { Link } from 'react-router-dom';
-import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
 import LocalHospitalRoundedIcon from '@mui/icons-material/LocalHospitalRounded';
 
 
