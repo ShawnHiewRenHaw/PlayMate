@@ -1,3 +1,4 @@
+/*the chat screen is reduced to width of 33.33% so that it can be shown with a split screen with the tinder cards*/
 .chatScreen{
     position: flex;
     width: 33.33%;

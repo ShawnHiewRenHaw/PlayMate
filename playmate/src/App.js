@@ -1,8 +1,10 @@
 import React from "react";
 import './App.css';
 import Header from './Header';
+import petSit from './petSit';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import PetCards from "./PetCards";
+
 import Signup from "./SignUp";
 import SwipeButtons from './SwipeButtons';
 import Matchess from './Matches';
@@ -10,12 +12,20 @@ import ChatScreen from "./ChatScreen";
 import MainPageee from "./MainPageee";
 
 
+
 function App() {
+  
   return (
     <div className="App">
       
+      { /* the router is used to navigate between different pages */ }
+
       <Router>
+
+      { /* header is placed outside of the switch so that no matter what page you are on header will always be shown */ }
       <Header />
+
+      { /*switch is used to navigate through the different pages. Route paths are shown for each sub page*/ }
       <Switch>
       <Route path="/chat">
           <ChatScreen />
@@ -24,10 +34,9 @@ function App() {
           <Signup />
         </Route>
         <Route path="/petSit">
-          <h1>I am Pet Sit page</h1>
+          <petSit />
         </Route>
         <Route path="/Vet">
-       
         </Route>
         <Route path="/meet">
         <Matchess />

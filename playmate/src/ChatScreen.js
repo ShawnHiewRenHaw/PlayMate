@@ -27,12 +27,6 @@ function ChatScreen() {
      {
         name: 'Sam',
         image: '...',
-        message: 'I take sam to the park every sunday' 
- 
-     },
-     {
-        name: 'Sam',
-        image: '...',
         message: 'HELLLLLLO?' 
  
      }

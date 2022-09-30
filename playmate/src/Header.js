@@ -8,7 +8,7 @@ import { IconButton } from '@mui/material';
 import { Link } from 'react-router-dom';
 import LocalHospitalRoundedIcon from '@mui/icons-material/LocalHospitalRounded';
 
-
+//this function prints out the header with clickable menu buttons that will be on every page
 function Header(){
 
    
