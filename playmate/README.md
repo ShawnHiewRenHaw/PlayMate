@@ -4,7 +4,7 @@ Playmate is your friendly neighbourhood dog meetup app! Match, chat, and meet do
 
 Looking for the top rated vets, pet food stores, walkers, or anything else related to your pup? Hop on over to our Playmate Map and check out every animal business in your area!
 
-![alt text](https://github.com/ShawnHiewRenHaw/PlayMate/edit/Faraaz/playmate/public/chat.PNG)
+(https://github.com/ShawnHiewRenHaw/PlayMate/edit/Faraaz/playmate/public/chat.PNG)
 
 # Getting Started with Create React App
 
