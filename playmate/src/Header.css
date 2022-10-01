@@ -1,0 +1,26 @@
+.header {
+    display:flex;
+    border-bottom: 2px solid #838383bc;
+    background-color: rgb(18, 33, 69);
+    
+    
+}
+
+
+.header__logo{
+    height :90px;
+    object-fit: contain;
+  
+}
+
+.header__icon_{
+    padding: 20px;
+  
+}
+
+
+
+.header__icon{
+    padding: 20px;
+
+}
