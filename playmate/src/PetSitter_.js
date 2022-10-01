@@ -9,7 +9,7 @@ function PetSitter_(){
             <div className="matchesicon">
 
            
-
+            <h1 className="ess"> Animal sitters near you</h1>
             <Stack spacing={4}>
                 <Stack direction='column' spacing ={1}>
                 <Avatar
@@ -45,6 +45,7 @@ function PetSitter_(){
             <div className="bio"> 
             <Stack spacing={10}>
                 <Stack direction='column' spacing ={15}>
+                <h2 className="ess"> </h2>
                 <h2 className="ess"> Brad 25, ★★★★★ Responsible and good with all breads</h2>
             <h3 className="jess"> Jess 31, ★★★★☆ Responsible and good with walks</h3>
             <h4 className="Greg"> Tom 25, ★★★☆☆ Good with Big DOgs!</h4>

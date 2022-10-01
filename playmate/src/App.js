@@ -10,6 +10,8 @@ import SwipeButtons from './SwipeButtons';
 import Matchess from './Matches';
 import ChatScreen from "./ChatScreen";
 import MainPageee from "./MainPageee";
+import SearchVet from "./VetPage";
+import SearchResult from "./VetSearchResult";
 
 
 
@@ -29,6 +31,12 @@ function App() {
       <Switch>
       <Route path="/chat">
           <ChatScreen />
+        </Route>
+        <Route path="/VetResult">
+          <SearchResult />
+        </Route>
+        <Route path="/Vet">
+          <SearchVet/>
         </Route>
         <Route path="/signup">
           <Signup />
