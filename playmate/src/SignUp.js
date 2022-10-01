@@ -60,7 +60,7 @@ function Signup () {
       {formik.touched.repassword && formik.errors.repassword ? <div className='error'>{formik.errors.repassword}</div> : null}/
             <button  className= "button_" type="submit">Sign Up</button>
             <Link to="/">
-            <button  className= "button_" type="submit">Home</button>
+            <button  className= "button_" type="submit">Back to login</button>
             </Link>
             </form>
         </div>

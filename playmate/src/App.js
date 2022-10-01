@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css';
 import Header from './Header';
-import petSit from './petSit';
+import PetSitter_ from "./PetSitter_";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import PetCards from "./PetCards";
 
@@ -34,7 +34,8 @@ function App() {
           <Signup />
         </Route>
         <Route path="/petSit">
-          <petSit />
+        <ChatScreen />
+          <PetSitter_/>
         </Route>
         <Route path="/Vet">
         </Route>
