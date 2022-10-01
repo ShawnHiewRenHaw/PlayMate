@@ -10,9 +10,6 @@ import LocalHospitalRoundedIcon from '@mui/icons-material/LocalHospitalRounded';
 
 //this function prints out the header with clickable menu buttons that will be on every page
 function Header(){
-
-   
-
     return (
         <div className="header">
 
